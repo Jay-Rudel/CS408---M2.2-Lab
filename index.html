@@ -10,11 +10,14 @@
   <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
-<body>
+<body class="indexPage">
   <h1>HTML Rocks!</h1>
+  <h2><a href="aboutPage.html">All about me ← Click here</a></h2>
+    <p><button onclick="loadAboutPage()">Dont want to go to another page? Click here</button></p>
   <p>
-    <button  onclick="helloWorld()">Prints Hello World to the Developer console</button>
+    <button  onclick="helloWorld()">Prints Hello World in a popup</button>
   </p>
+
   <hr>
   <form id="addForm">
     <label for="num1">Number 1:</label>
@@ -38,7 +41,7 @@
   <table id="jokeTable"></table>
 
   <script type="module" script="js/main.js">
-    import {helloWorld, add, fetchRandomJoke, fetch5RandomJokes} from './js/main.js';
+    import {helloWorld, add, fetchRandomJoke, fetch5RandomJokes, loadAboutPage} from './js/main.js';
 
     // This shows how to assign a function to the window object
     // so that it can be called from the browser console
