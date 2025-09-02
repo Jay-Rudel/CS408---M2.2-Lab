@@ -59,6 +59,15 @@ tbody tr:hover {
   color: white;
 }
 
+.indexPage {
+  border: 3px dashed white;
+  color: white;
+  background-color: #151f29;
+  padding: 12px;
+  margin: 1px;
+  margin-top: 3px;
+}
+
 .twitterIcon {
   width: 100px;
   height: auto;
