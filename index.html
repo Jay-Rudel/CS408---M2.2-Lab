@@ -12,10 +12,23 @@
 
 <body class="indexPage">
   <h1>HTML Rocks!</h1>
-  <h2><a href="aboutPage.html">All about me ← Click here</a></h2>
-    <p><button onclick="loadAboutPage()">Dont want to go to another page? Click here</button></p>
+  <h2><a href="aboutPage.html">All about me on its own page ← Click here</a></h2>
+    <ul class="list">
+                  <li>Hello everyone, my name is Jay Rudel.</li>
+                  <li class="special1">I am expected to graduate middle of next year.</li>
+                  <li class="special2">I currently do <i>not</i> have a job working for web development.</li>
+                  <li>I also have <i>not</i> had a intership for it either.</li>
+              </ul>
+              <img class="twitterIcon" src="img/personalImg.png">
+              <p class="moreInfo"> 
+                  A bit more about me. I am a gamer, and I like to code for fun. 
+                  One of the major projects that I have worked on is a text based 
+                  adventure game all in java. I also enjoy coding in HTML and CSS. 
+                  One of the other things I do in my free time is to read a large 
+                  variety of books books. I can't wait to get to know everyone better.
+              </p>
   <p>
-    <button  onclick="helloWorld()">Prints Hello World in a popup</button>
+    <button onclick="helloWorld()">Prints Hello World in a popup</button>
   </p>
 
   <hr>
@@ -41,7 +54,7 @@
   <table id="jokeTable"></table>
 
   <script type="module" script="js/main.js">
-    import {helloWorld, add, fetchRandomJoke, fetch5RandomJokes, loadAboutPage} from './js/main.js';
+    import {helloWorld, add, fetchRandomJoke, fetch5RandomJokes} from './js/main.js';
 
     // This shows how to assign a function to the window object
     // so that it can be called from the browser console
@@ -104,6 +117,8 @@
         document.getElementById('joke').textContent = `Error: ${e.message}`;
       }
     });
+
+
   </script>
 
 </body>
