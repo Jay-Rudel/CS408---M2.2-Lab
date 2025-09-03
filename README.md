@@ -1,29 +1,29 @@
 # web-dev-starter
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+ This is the starter project for Web Dev. For this project I made a custom page
+ as well as including it in the main index html.
 
-## Getting Started
+ This project is a starting point for what is to come in the future.
 
-To get started, clone this repository and run the following commands:
 
-```bash
-npm install
-```
-This will install the necessary dependencies for the project.
+## Viewing the project
 
-## Development
+ I highly recommend using VSCode Live Server extention to see the project. This allows you to
+ see the page, and interact with the page without having to open it in a local file.
 
-It is recommended to use the VSCode Live Server extension to run the project
-locally. This will allow you to see changes in real-time as you make them. There
-is no need to run a build process or refresh the page manually. Additionally,
-you do not need to setup a local server to run the project.
+ In order to view the pop ups you may have to enter into a webpage. If you are using 
+ live extention you can copy the link and paste it into a web browser to test it
 
 ## Testing
 
-To run the tests for the project, run the following command:
+ For testing this project make sure you have run following command
 
-```bash
-npm test
-```
+ ```npm install```
+
+ Once you have run that command you can run the following command to check all the tests that
+ exist.
+
+ ```npm run test```
+
+ There is one test that has been commented out. This test is for printing to the console. However,
+ as I changed it to an alert it can no longer test correctly.
